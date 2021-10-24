@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Human.Collection</OriginalElement>
+  <nodes>
+    <node x="1105.1151735495557" y="833.878839295199">Start</node>
+    <node x="1165.5191110060346" y="374.7846354043436">Commands.CommandClear</node>
+    <node x="22.409552845530015" y="0.0">Human.Car</node>
+    <node x="765.5191110060346" y="374.7846354043436">Commands.CommandAverage</node>
+    <node x="1877.5191110060346" y="374.7846354043436">Commands.CommandExit</node>
+    <node x="124.5" y="227.75">Human.HumanBeing</node>
+    <node x="557.6933080965641" y="816.1332629673154">Commands.CommandsExecute</node>
+    <node x="1768.269111006035" y="250.2832828344608">Commands.CommandInfo</node>
+    <node x="1005.2691110060346" y="250.2832828344608">Commands.CommandReplace</node>
+    <node x="176.4095528455299" y="-11.0">Human.Coordinates</node>
+    <node x="1271.0191110060346" y="-22.5">Commands.AbstactCommand</node>
+    <node x="829.2691110060346" y="250.2832828344608">Commands.CommandInsert</node>
+    <node x="1933.269111006035" y="250.2832828344608">Commands.CommandUpdate</node>
+    <node x="624.4447196624822" y="-79.22813345356175">Human.WeaponType</node>
+    <node x="1336.5191110060346" y="374.7846354043436">Commands.CommandHelp</node>
+    <node x="1554.2691110060348" y="250.2832828344608">Commands.CommandFilterImpact</node>
+    <node x="202.20559062218211" y="743.0">Human.Collection</node>
+    <node x="654.2691110060346" y="250.2832828344608">Commands.CommandShow</node>
+    <node x="1193.2691110060346" y="250.2832828344608">Commands.CommandSave</node>
+    <node x="364.4095528455299" y="-44.49999999999999">Human.Mood</node>
+    <node x="1505.5191110060346" y="374.7846354043436">Commands.CommandHistory</node>
+    <node x="957.5191110060346" y="374.7846354043436">Commands.CommandFilterName</node>
+    <node x="1362.2691110060348" y="250.2832828344608">Commands.CommandRemove</node>
+    <node x="1690.5191110060346" y="374.7846354043436">Commands.CommandExecute</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Commands.CommandExit" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1948.0191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandHistory" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-41.25" y="39.5" />
+      <point x="1546.7691110060346" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandUpdate" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-41.5" y="-39.5" />
+      <point x="1974.769111006035" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandHelp" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-37.25" y="39.5" />
+      <point x="1373.7691110060346" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandInsert" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-39.0" y="-39.5" />
+      <point x="868.2691110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandAverage" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="894.5191110060346" y="658.5383228133453" />
+      <point x="43.0" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandClear" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1278.7691110060346" y="658.5383228133453" />
+      <point x="37.75" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandInfo" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="1877.019111006035" y="351.2832828344608" />
+      <point x="36.25" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandAverage" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="43.0" y="-39.5" />
+      <point x="894.5191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandInfo" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="36.25" y="-39.5" />
+      <point x="1877.019111006035" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandHistory" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1629.2691110060346" y="658.5383228133453" />
+      <point x="41.25" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="0.0" y="-84.0" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1087.4853557550005" y="957.0" />
+      <point x="1087.4853557550005" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandUpdate" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="41.5" y="-39.5" />
+      <point x="2057.769111006035" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandAverage" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-43.0" y="39.5" />
+      <point x="808.5191110060346" y="889.3923177021718" />
+      <point x="1506.844913915505" y="889.3923177021718" />
+      <point x="1506.844913915505" y="957.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandFilterImpact" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-48.5" y="-39.5" />
+      <point x="1602.7691110060348" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandFilterImpact" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="48.5" y="-39.5" />
+      <point x="1699.7691110060348" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandExit" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1948.0191110060346" y="658.5383228133453" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.Car" relationship="TO_ONE">
+      <point x="0.0" y="-216.5" />
+      <point x="373.5" y="240.0" />
+      <point x="221.8750000000001" y="240.0" />
+      <point x="221.8750000000001" y="220.0" />
+      <point x="107.90955284553002" y="220.0" />
+      <point x="28.5" y="50.5" />
+    </edge>
+    <edge source="Commands.CommandInfo" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-36.25" y="39.5" />
+      <point x="1804.519111006035" y="918.5184851217313" />
+      <point x="1537.3786691665396" y="918.5184851217313" />
+      <point x="1537.3786691665396" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandFilterName" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="47.0" y="-39.5" />
+      <point x="1098.5191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandClear" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-37.75" y="-39.5" />
+      <point x="1203.2691110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandInfo" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-36.25" y="-39.5" />
+      <point x="1804.519111006035" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandHistory" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1588.0191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.Mood" relationship="TO_ONE">
+      <point x="0.0" y="-216.5" />
+      <point x="373.5" y="240.0" />
+      <point x="221.8750000000001" y="240.0" />
+      <point x="221.8750000000001" y="220.0" />
+      <point x="404.6595528455299" y="220.0" />
+      <point x="-40.25" y="95.0" />
+    </edge>
+    <edge source="Commands.CommandExecute" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1774.0191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandRemove" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="43.0" y="-39.5" />
+      <point x="1491.2691110060348" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandSave" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-37.25" y="-39.5" />
+      <point x="1230.5191110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandShow" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-38.75" y="-39.5" />
+      <point x="693.0191110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandFilterImpact" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="1699.7691110060348" y="351.2832828344608" />
+      <point x="48.5" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandHelp" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1448.2691110060346" y="658.5383228133453" />
+      <point x="37.25" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandClear" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="37.75" y="-39.5" />
+      <point x="1278.7691110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.Car" relationship="CREATE">
+      <point x="-166.0" y="-216.5" />
+      <point x="207.5" y="240.0" />
+      <point x="50.909552845530015" y="240.0" />
+      <point x="-28.5" y="50.5" />
+    </edge>
+    <edge source="Commands.CommandUpdate" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-41.5" y="39.5" />
+      <point x="1974.769111006035" y="918.5184851217313" />
+      <point x="1707.6286691665396" y="918.5184851217313" />
+      <point x="1707.6286691665396" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandFilterName" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-47.0" y="-39.5" />
+      <point x="1004.5191110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandClear" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-37.75" y="39.5" />
+      <point x="1203.2691110060346" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandRemove" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-43.0" y="-39.5" />
+      <point x="1405.2691110060348" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandFilterName" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-47.0" y="39.5" />
+      <point x="1004.5191110060346" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandExecute" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-41.75" y="39.5" />
+      <point x="1732.2691110060346" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandRemove" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-43.0" y="39.5" />
+      <point x="1405.2691110060348" y="827.1416414172304" />
+      <point x="2103.5949139155055" y="827.1416414172304" />
+      <point x="2103.5949139155055" y="957.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.WeaponType" relationship="DEPENDENCY">
+      <point x="166.0" y="-216.5" />
+      <point x="539.5" y="240.0" />
+      <point x="585.4095528455299" y="240.0" />
+      <point x="585.4095528455299" y="210.0" />
+      <point x="774.4447196624822" y="210.0" />
+      <point x="50.0" y="95.0" />
+    </edge>
+    <edge source="Commands.CommandFilterImpact" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-48.5" y="39.5" />
+      <point x="1602.7691110060348" y="918.5184851217313" />
+      <point x="1335.6286691665396" y="918.5184851217313" />
+      <point x="1335.6286691665396" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="668.5383228133453" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.AbstactCommand" relationship="DEPENDENCY">
+      <point x="0.0" y="-84.0" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1082.4853557550005" y="957.0" />
+      <point x="1082.4853557550005" y="1183.0" />
+      <point x="1355.0191110060346" y="1183.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandReplace" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="42.0" y="-39.5" />
+      <point x="1131.2691110060346" y="1183.0" />
+      <point x="1866.6195799458" y="1183.0" />
+      <point x="1866.6195799458" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandShow" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-38.75" y="39.5" />
+      <point x="693.0191110060346" y="827.1416414172304" />
+      <point x="1391.344913915505" y="827.1416414172304" />
+      <point x="1391.344913915505" y="957.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandSave" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-37.25" y="39.5" />
+      <point x="1230.5191110060346" y="827.1416414172304" />
+      <point x="1928.844913915505" y="827.1416414172304" />
+      <point x="1928.844913915505" y="957.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandRemove" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="1491.2691110060348" y="351.2832828344608" />
+      <point x="43.0" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Human.Collection" relationship="TO_ONE">
+      <point x="-103.33333333333331" y="-84.0" />
+      <point x="609.3599747632309" y="1080.5666314836576" />
+      <point x="1307.6857776727013" y="1080.5666314836576" />
+      <point x="1307.6857776727013" y="977.0" />
+      <point x="906.5070359718022" y="977.0" />
+      <point x="906.5070359718022" y="967.0" />
+      <point x="901.5070359718022" y="967.0" />
+      <point x="901.5070359718022" y="1193.0" />
+      <point x="345.2055906221821" y="1193.0" />
+      <point x="0.0" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandReplace" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="1131.2691110060346" y="351.2832828344608" />
+      <point x="42.0" y="39.5" />
+    </edge>
+    <edge source="Start" target="Commands.CommandsExecute" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="1180.1151735495557" y="1193.3285089172118" />
+      <point x="1878.4409764590262" y="1193.3285089172118" />
+      <point x="1878.4409764590262" y="1184.7781785392244" />
+      <point x="1332.6097937115073" y="1184.7781785392244" />
+      <point x="1332.6097937115073" y="1193.0" />
+      <point x="1411.0191110060346" y="1193.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandInsert" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-39.0" y="39.5" />
+      <point x="868.2691110060346" y="827.1416414172304" />
+      <point x="1566.594913915505" y="827.1416414172304" />
+      <point x="1566.594913915505" y="957.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Commands.CommandReplace" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-42.0" y="-39.5" />
+      <point x="1047.2691110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandShow" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="38.75" y="-39.5" />
+      <point x="770.5191110060346" y="1183.0" />
+      <point x="1866.6195799458" y="1183.0" />
+      <point x="1866.6195799458" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandSave" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="37.25" y="-39.5" />
+      <point x="1305.0191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.AbstactCommand" relationship="TO_MANY">
+      <point x="-103.33333333333331" y="-84.0" />
+      <point x="609.3599747632309" y="1080.5666314836576" />
+      <point x="1307.6857776727013" y="1080.5666314836576" />
+      <point x="1307.6857776727013" y="977.0" />
+      <point x="906.5070359718022" y="977.0" />
+      <point x="906.5070359718022" y="967.0" />
+      <point x="1008.8874560260024" y="967.0" />
+      <point x="1008.8874560260024" y="1173.0" />
+      <point x="1299.0191110060346" y="1173.0" />
+      <point x="-56.0" y="84.0" />
+    </edge>
+    <edge source="Commands.CommandReplace" target="Commands.CommandsExecute" relationship="DEPENDENCY">
+      <point x="-42.0" y="39.5" />
+      <point x="1047.2691110060346" y="827.1416414172304" />
+      <point x="1745.594913915505" y="827.1416414172304" />
+      <point x="1745.594913915505" y="957.0" />
+      <point x="1245.8203828552703" y="957.0" />
+      <point x="1245.8203828552703" y="967.0" />
+      <point x="1411.0191110060346" y="967.0" />
+      <point x="1411.0191110060346" y="1075.5666314836576" />
+      <point x="712.6933080965641" y="1075.5666314836576" />
+      <point x="0.0" y="-84.0" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.Coordinates" relationship="CREATE">
+      <point x="-166.0" y="-216.5" />
+      <point x="207.5" y="240.0" />
+      <point x="50.909552845530015" y="240.0" />
+      <point x="50.909552845530015" y="230.0" />
+      <point x="218.4095528455299" y="230.0" />
+      <point x="-42.0" y="61.5" />
+    </edge>
+    <edge source="Human.Collection" target="Human.HumanBeing" relationship="CREATE">
+      <point x="71.5" y="-194.5" />
+      <point x="416.7055906221821" y="718.0" />
+      <point x="498.0" y="718.0" />
+      <point x="124.5" y="216.5" />
+    </edge>
+    <edge source="Commands.CommandHelp" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1411.0191110060346" y="1183.0" />
+      <point x="1866.6195799457998" y="1183.0" />
+      <point x="1866.6195799457998" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.WeaponType" relationship="TO_ONE">
+      <point x="0.0" y="-216.5" />
+      <point x="373.5" y="240.0" />
+      <point x="221.8750000000001" y="240.0" />
+      <point x="221.8750000000001" y="220.0" />
+      <point x="674.4447196624822" y="220.0" />
+      <point x="-50.0" y="95.0" />
+    </edge>
+    <edge source="Commands.CommandAverage" target="Human.Collection" relationship="DEPENDENCY">
+      <point x="-43.0" y="-39.5" />
+      <point x="808.5191110060346" y="1193.0" />
+      <point x="1392.8695799457998" y="1193.0" />
+      <point x="1392.8695799457998" y="1163.0" />
+      <point x="440.5389239555154" y="1163.0" />
+      <point x="95.33333333333326" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandUpdate" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1790.6286691665396" y="658.5383228133453" />
+      <point x="1790.6286691665396" y="913.5184851217313" />
+      <point x="2057.769111006035" y="913.5184851217313" />
+      <point x="41.5" y="39.5" />
+    </edge>
+    <edge source="Human.Collection" target="Human.HumanBeing" relationship="TO_MANY">
+      <point x="-71.5" y="-194.5" />
+      <point x="273.7055906221821" y="718.0" />
+      <point x="249.0" y="718.0" />
+      <point x="-124.5" y="216.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandInsert" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="946.2691110060346" y="351.2832828344608" />
+      <point x="39.0" y="39.5" />
+    </edge>
+    <edge source="Start" target="Human.Collection" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="1180.1151735495557" y="1193.3285089172118" />
+      <point x="1878.4409764590262" y="1193.3285089172118" />
+      <point x="1878.4409764590262" y="1184.7781785392244" />
+      <point x="1312.8027603481169" y="1184.7781785392244" />
+      <point x="1312.8027603481169" y="1193.0" />
+      <point x="249.87225728884874" y="1193.0" />
+      <point x="-95.33333333333337" y="194.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandExecute" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1815.7691110060346" y="658.5383228133453" />
+      <point x="41.75" y="39.5" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.Mood" relationship="DEPENDENCY">
+      <point x="166.0" y="-216.5" />
+      <point x="539.5" y="240.0" />
+      <point x="585.4095528455299" y="240.0" />
+      <point x="585.4095528455299" y="210.0" />
+      <point x="485.1595528455299" y="210.0" />
+      <point x="40.25" y="95.0" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandFilterName" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="688.5383228133453" />
+      <point x="2158.2691110060346" y="658.5383228133453" />
+      <point x="1098.5191110060346" y="658.5383228133453" />
+      <point x="47.0" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandInsert" target="Commands.AbstactCommand" relationship="GENERALIZATION">
+      <point x="39.0" y="-39.5" />
+      <point x="946.2691110060346" y="1183.0" />
+      <point x="1866.6195799458" y="1183.0" />
+      <point x="1866.6195799458" y="1153.0" />
+      <point x="1411.0191110060346" y="1153.0" />
+      <point x="56.0" y="84.0" />
+    </edge>
+    <edge source="Human.HumanBeing" target="Human.Coordinates" relationship="TO_ONE">
+      <point x="0.0" y="-216.5" />
+      <point x="373.5" y="240.0" />
+      <point x="221.8750000000001" y="240.0" />
+      <point x="221.8750000000001" y="220.0" />
+      <point x="302.4095528455299" y="220.0" />
+      <point x="42.0" y="61.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandShow" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="770.5191110060346" y="351.2832828344608" />
+      <point x="38.75" y="39.5" />
+    </edge>
+    <edge source="Commands.CommandsExecute" target="Commands.CommandSave" relationship="CREATE">
+      <point x="103.33333333333337" y="-84.0" />
+      <point x="816.0266414298975" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="688.5383228133453" />
+      <point x="1742.2691110060346" y="351.2832828344608" />
+      <point x="1305.0191110060346" y="351.2832828344608" />
+      <point x="37.25" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5034098151688974" showDependencies="true" x="1111.4882572640374" y="785.4685699816421" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
